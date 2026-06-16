@@ -2,12 +2,12 @@
 
 /* ───────────────────────────  Design tokens  ─────────────────────────── */
 @theme {
-  --color-ink: #0a0a0b;
-  --color-ink-2: #100f13;
-  --color-ink-3: #16151a;
-  --color-cream: #efeae1;
-  --color-muted: #8b877e;
-  --color-faint: #56534d;
+  --color-ink: #101013;
+  --color-ink-2: #1a1a1f;
+  --color-ink-3: #232229;
+  --color-cream: #f4f1ea;
+  --color-muted: #b9b4aa;
+  --color-faint: #8c877d;
   --color-lime: #cbff46;
   --color-ember: #ff6a3d;
 
