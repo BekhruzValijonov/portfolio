@@ -72,7 +72,7 @@ export const projects: Project[] = [
     ],
     stack: ["React", "TypeScript", "REST API", "Admin Panel", "Dashboard UI", "Responsive"],
     links: [{ label: "admin.imaantech.uz", href: "https://admin.imaantech.uz" }],
-    note: "Admin demo access on request",
+    credentials: [{ role: "Admin", login: "+998940962906", password: "string" }],
   },
   {
     index: "02",
