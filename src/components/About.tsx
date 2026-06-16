@@ -12,8 +12,8 @@ export default function About() {
           <Reveal>
             <p className="font-display text-3xl leading-[1.25] font-light text-cream sm:text-4xl md:text-[2.7rem]">
               I turn complex, high-volume product requirements into{" "}
-              <span className="italic text-lime">interfaces people actually enjoy using</span> — fast,
-              accessible and built to scale.
+              <span className="italic text-lime">interfaces people actually enjoy using</span> — then back
+              them with fast, reliable systems built to scale.
             </p>
           </Reveal>
           <Reveal delay={0.1}>

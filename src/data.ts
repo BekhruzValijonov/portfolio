@@ -10,7 +10,7 @@ export const profile = {
   linkedinLabel: "in/bekhruz-valijonov",
   available: true,
   summary:
-    "Frontend / Full-Stack Developer building production web, desktop and mobile applications with React, TypeScript, Next.js, Electron, Tauri and React Native. I care about scalable frontend architecture, real-time dashboards, interactive data visualization, WebSocket flows and clean cross-platform delivery.",
+    "Frontend-focused full-stack developer shipping production web, desktop and mobile apps end to end — React, TypeScript and Next.js on the front, Electron and Tauri on the desktop, React Native on mobile, and serverless backends on Cloudflare Workers with Hono. I care about scalable architecture, real-time dashboards, interactive data visualization, WebSocket flows, AI/LLM integrations and clean cross-platform delivery.",
 };
 
 export type Experience = {
@@ -25,7 +25,45 @@ export type Experience = {
 
 export const experience: Experience[] = [
   {
-    company: "Planix",
+    company: "Leerybit",
+    role: "Frontend Developer",
+    location: "Tashkent",
+    period: "Oct 2023 — Jun 2026",
+    current: false,
+    points: [
+      "Developed and maintained production frontend features with React, TypeScript, JavaScript and modern tooling.",
+      "Built reusable UI components and scalable application modules to keep product interfaces consistent.",
+      "Implemented dashboards, API-driven interfaces and client-side data transformation for complex operational data.",
+      "Built WebSocket-based real-time updates for queue, ticket and dashboard systems.",
+      "Investigated production issues, refactored legacy frontend logic and optimized rendering performance.",
+    ],
+    stack: [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "WebSocket",
+      "Electron",
+      "Kotlin",
+      "ui-kit (internal)",
+      "core (internal)",
+    ],
+  },
+  {
+    company: "Imaan-Tech",
+    role: "Frontend Developer · Freelance",
+    location: "Remote",
+    period: "Jan 2026 — May 2026",
+    points: [
+      "Engineered a web-based educational platform end to end — admin dashboard and student-facing portal — with reusable frontend flows, responsive UI sections and API-connected screens.",
+      "Built large multi-module admin interfaces: student finance, teacher salaries, payouts, expenses, KPI dashboards, reports, branches, users and parent management.",
+      "Developed student-facing pages — dashboard, payments, attendance history, XP progress, rating, profile and settings — with consistent, reusable components.",
+      "Integrated AI-powered learning tools (AI Chat, Explain, Speaking, Writing and ChatGPT-based assistant flows) into the student experience.",
+      "Implemented Face ID attendance UI with camera-access and GPS permission handling, plus camera dashboards and live/AI video analysis features.",
+    ],
+    stack: ["React", "TypeScript", "REST API", "AI / LLM", "Face ID", "Responsive"],
+  },
+  {
+    company: "Plantix AI",
     role: "Full-Stack Developer · Personal Project",
     location: "Personal Project",
     period: "2026",
@@ -47,33 +85,6 @@ export const experience: Experience[] = [
       "Tauri",
       "Framework7",
       "AI",
-    ],
-  },
-  {
-    company: "Leerybit",
-    role: "Frontend Developer",
-    location: "Tashkent",
-    period: "Oct 2023 — Jun 2026",
-    current: false,
-    points: [
-      "Developed and maintained production frontend features with React, TypeScript, JavaScript and modern tooling.",
-      "Built reusable UI components and scalable application modules to keep product interfaces consistent.",
-      "Implemented dashboards, API-driven interfaces and client-side data transformation for complex operational data.",
-      "Built WebSocket-based real-time updates for queue, ticket and dashboard systems.",
-      "Investigated production issues, refactored legacy frontend logic and optimized rendering performance.",
-    ],
-  },
-  {
-    company: "Imaan-Tech",
-    role: "Frontend Developer · Freelance",
-    location: "Remote",
-    period: "Jan 2026 — May 2026",
-    points: [
-      "Engineered a web-based educational platform end to end — admin dashboard and student-facing portal — with reusable frontend flows, responsive UI sections and API-connected screens.",
-      "Built large multi-module admin interfaces: student finance, teacher salaries, payouts, expenses, KPI dashboards, reports, branches, users and parent management.",
-      "Developed student-facing pages — dashboard, payments, attendance history, XP progress, rating, profile and settings — with consistent, reusable components.",
-      "Integrated AI-powered learning tools (AI Chat, Explain, Speaking, Writing and ChatGPT-based assistant flows) into the student experience.",
-      "Implemented Face ID attendance UI with camera-access and GPS permission handling, plus camera dashboards and live/AI video analysis features.",
     ],
   },
 ];
@@ -187,11 +198,15 @@ export const skills: SkillGroup[] = [
   },
   {
     label: "Backend & API",
-    items: ["Node.js", "Express.js", "PostgreSQL", "REST APIs", "Auth Flows", "JWT"],
+    items: ["Node.js", "Express.js", "Hono", "PostgreSQL", "REST APIs", "Auth Flows", "OAuth", "Google OAuth", "JWT"],
+  },
+  {
+    label: "Cloud & Serverless",
+    items: ["Cloudflare Workers", "Cloudflare R2", "Edge Functions", "Cron Jobs", "Web Push"],
   },
   {
     label: "Desktop & Mobile",
-    items: ["Electron", "Tauri", "React Native", "Kotlin", "Jetpack Compose", "Android WebView", "Android TV"],
+    items: ["Electron", "Tauri", "Framework7", "React Native", "Kotlin", "Jetpack Compose", "Android WebView", "Android TV"],
   },
   {
     label: "Tools & Infra",
@@ -199,7 +214,7 @@ export const skills: SkillGroup[] = [
   },
   {
     label: "AI & Integrations",
-    items: ["OpenAI API", "Vision APIs", "LLM Integrations", "Image Analysis"],
+    items: ["Claude / Anthropic API", "OpenAI API", "LLM Integrations", "AI Vision", "Image Analysis"],
   },
 ];
 
@@ -222,9 +237,11 @@ export const marqueeWords = [
   "Tauri",
   "React Native",
   "WebSocket",
-  "amCharts",
-  "D3.js",
   "Node.js",
   "Tailwind",
-  "Real-Time Dashboards",
+  "Hono",
+  "Cloudflare",
+  "AI",
+  "LLM",
+  "AI Vision",
 ];
